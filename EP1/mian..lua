@@ -3,10 +3,10 @@ print("please enter some words")
 someWords = io.read()
 print(string.upper(someWords))
 
+--2
 print("Enter the first number")
 num1 = tonumber(io,read())
 
---2
 while num1 == nil do
     print("that is not a number, try again!")
     num1 = ronumber(io.read())

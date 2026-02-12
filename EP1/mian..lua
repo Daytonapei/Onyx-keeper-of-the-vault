@@ -1,3 +1,4 @@
+--1
 print("please enter some words")
 someWords = io.read()
 print(string.upper(someWords))
@@ -5,6 +6,7 @@ print(string.upper(someWords))
 print("Enter the first number")
 num1 = tonumber(io,read())
 
+--2
 while num1 == nil do
     print("that is not a number, try again!")
     num1 = ronumber(io.read())
@@ -22,6 +24,8 @@ end
 total = num1 + num2
 print("the total is "..total)
 
+
+--3
 continueVar = "y"
 total = 0
 newNumber = 0
@@ -43,6 +47,8 @@ end
 
 print("the total is ".. total)
 
+
+--4
 continueVar = "y"
 math.randomseed(os.time())
 math.random()math.random()math.random()
@@ -61,6 +67,8 @@ while continueVar == "y" do
     continueVar = io.read()
 end
 
+
+--5
 math.randomseed(os.time())
 math.random()math.random()math.random()
 
